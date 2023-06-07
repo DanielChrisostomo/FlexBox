@@ -261,12 +261,8 @@ img {
   padding: 15px 0;
   text-align: center;
 }
+
 @media (max-width: 800px) {
-  .preco {
-    flex-direction: column-reverse;
-  }
-}
-/* @media (max-width: 800px) {
   .preco {
     padding-left: 10px;
     padding-right: 10px;
@@ -277,7 +273,8 @@ img {
   .preco .preco-item:nth-child(2) {
     order: -1;
   }
-} */
+}
+
 /* Qualidade */
 
 .qualidade {
